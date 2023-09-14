@@ -1,12 +1,10 @@
 DROP SCHEMA IF EXISTS public CASCADE;
 CREATE SCHEMA public;
-
 SET SEARCH_PATH = "public";
 GRANT USAGE ON SCHEMA public TO public;
 GRANT CREATE ON SCHEMA public TO public;
-DROP DATABASE IF EXISTS qastore;
-CREATE DATABASE qastore;
-USE qastore;
+DROP DATABASE IF EXISTS sample;
+CREATE DATABASE sample;
 
 CREATE TABLE company (
   company_no int NOT NULL,
