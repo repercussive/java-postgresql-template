@@ -11,5 +11,8 @@
 				"cweijan.vscode-postgresql-client2"
 			]
 		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
 	}
 }
